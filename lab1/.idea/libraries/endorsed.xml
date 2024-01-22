@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="endorsed">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/common/endorsed/xercesImpl-2.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/common/endorsed/xmlParserAPIs-2.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

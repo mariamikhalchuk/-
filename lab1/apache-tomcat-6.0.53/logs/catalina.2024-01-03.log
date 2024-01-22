@@ -1,0 +1,124 @@
+џэт 03, 2024 6:20:48 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;C:\Program Files (x86)\Avest\AvPCM_nces;C:\Program Files\Git\cmd;C:\Program Files\k6\;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\;C:\Users\dzmikhalchuk\AppData\Local\Microsoft\WindowsApps;C:\Users\dzmikhalchuk\AppData\Roaming\npm;C:\Users\dzmikhalchuk\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\python.exe;C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;;.
+џэт 03, 2024 6:20:48 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+џэт 03, 2024 6:20:48 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 369 ms
+џэт 03, 2024 6:20:48 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+џэт 03, 2024 6:20:48 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.53
+џэт 03, 2024 6:20:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory axis
+џэт 03, 2024 6:20:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+џэт 03, 2024 6:20:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+џэт 03, 2024 6:20:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory host-manager
+џэт 03, 2024 6:20:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory manager
+џэт 03, 2024 6:20:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+џэт 03, 2024 6:20:48 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+џэт 03, 2024 6:20:48 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+џэт 03, 2024 6:20:48 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/10  config=null
+џэт 03, 2024 6:20:48 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 674 ms
+Jan 03, 2024 6:34:45 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Jan 03, 2024 6:34:45 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:338)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:645)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:602)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:710)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:915)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:690)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 03, 2024 6:34:45 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Jan 03, 2024 6:34:45 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:338)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:645)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:602)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:710)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:915)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:690)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 03, 2024 6:34:45 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 5635
+Jan 03, 2024 6:34:46 PM org.apache.jk.common.ChannelSocket read
+INFO: Error reading data after 172bytes
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:645)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:602)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:710)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:915)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:690)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 03, 2024 6:34:46 PM org.apache.jk.common.ChannelSocket receive
+WARNING: can't read body, waited #768
+Jan 03, 2024 6:34:46 PM org.apache.jk.common.ChannelSocket processConnection
+WARNING: Closing ajp connection -1
+Jan 03, 2024 6:41:11 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Jan 03, 2024 6:41:11 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:338)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:645)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:602)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:710)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:915)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:690)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 03, 2024 6:41:11 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Jan 03, 2024 6:41:11 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:338)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:645)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:602)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:710)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:915)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:690)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 03, 2024 6:41:11 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 5635
+Jan 03, 2024 6:41:13 PM org.apache.jk.common.ChannelSocket read
+INFO: Error reading data after 172bytes
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:645)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:602)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:710)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:915)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:690)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 03, 2024 6:41:13 PM org.apache.jk.common.ChannelSocket receive
+WARNING: can't read body, waited #768
+Jan 03, 2024 6:41:13 PM org.apache.jk.common.ChannelSocket processConnection
+WARNING: Closing ajp connection -1

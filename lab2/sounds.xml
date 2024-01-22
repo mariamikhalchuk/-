@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="goods.xsl" type="text/xsl"?>
+<formats>
+   <format ID="SOUNDS">
+      <type ID="MP3">
+         <code>100001</code>
+      </type>
+      <type ID="WAV">
+         <code>100002</code>
+      </type>
+	  <type ID="FLAC">
+         <code>100003</code>
+      </type>
+   </format>
+</formats>

@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="lib2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/webapps/axis/WEB-INF/lib/saaj.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/webapps/axis/WEB-INF/lib/log4j-1.2.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/webapps/axis/WEB-INF/lib/axis-ant.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/webapps/axis/WEB-INF/lib/wsdl4j-1.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/webapps/axis/WEB-INF/lib/jaxrpc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/webapps/axis/WEB-INF/lib/commons-logging-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/webapps/axis/WEB-INF/lib/commons-discovery-0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/webapps/axis/WEB-INF/lib/axis.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

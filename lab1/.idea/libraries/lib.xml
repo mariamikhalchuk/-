@@ -1,0 +1,32 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/jasper-el.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/tomcat-coyote.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/catalina-ant.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/annotations-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/commons-logging-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/servlet-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/log4j-1.2.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/wsdl4j-1.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/tomcat-i18n-fr.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/tomcat-i18n-es.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/jaxrpc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/jasper.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/jsp-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/commons-discovery-0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/tomcat-i18n-ja.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/el-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/axis.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/catalina-tribes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/catalina-ha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/axis-ant.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/catalina.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/tomcat-dbcp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/ecj-4.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-6.0.53/lib/saaj.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

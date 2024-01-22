@@ -1,0 +1,270 @@
+џэт 21, 2024 6:16:54 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;C:\Program Files (x86)\Avest\AvPCM_nces;C:\Program Files\Git\cmd;C:\Program Files\k6\;C:\tools\apache-maven-3.6.3\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\;C:\Users\dzmikhalchuk\AppData\Local\Microsoft\WindowsApps;C:\Users\dzmikhalchuk\AppData\Roaming\npm;C:\Users\dzmikhalchuk\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\python.exe;C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;C:\Users\dzmikhalchuk\.dotnet\tools;.
+џэт 21, 2024 6:16:55 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+џэт 21, 2024 6:16:55 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 395 ms
+џэт 21, 2024 6:16:55 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+џэт 21, 2024 6:16:55 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.53
+џэт 21, 2024 6:16:55 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+џэт 21, 2024 6:16:55 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+џэт 21, 2024 6:16:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory axis
+џэт 21, 2024 6:16:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+џэт 21, 2024 6:16:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+џэт 21, 2024 6:16:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+џэт 21, 2024 6:16:55 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+џэт 21, 2024 6:16:55 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+џэт 21, 2024 6:16:55 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/13  config=null
+џэт 21, 2024 6:16:55 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 768 ms
+џэт 21, 2024 6:21:05 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;C:\Program Files (x86)\Avest\AvPCM_nces;C:\Program Files\Git\cmd;C:\Program Files\k6\;C:\tools\apache-maven-3.6.3\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\;C:\Users\dzmikhalchuk\AppData\Local\Microsoft\WindowsApps;C:\Users\dzmikhalchuk\AppData\Roaming\npm;C:\Users\dzmikhalchuk\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\python.exe;C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;C:\Users\dzmikhalchuk\.dotnet\tools;.
+џэт 21, 2024 6:21:05 PM org.apache.coyote.http11.Http11Protocol init
+SEVERE: Error initializing endpoint
+java.net.BindException: Address already in use: JVM_Bind <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.init(JIoEndpoint.java:563)
+	at org.apache.coyote.http11.Http11Protocol.init(Http11Protocol.java:180)
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1141)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:703)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:845)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:538)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:562)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:261)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:413)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:390)
+	at java.net.ServerSocket.<init>(ServerSocket.java:252)
+	at java.net.ServerSocket.<init>(ServerSocket.java:196)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:50)
+	at org.apache.tomcat.util.net.JIoEndpoint.init(JIoEndpoint.java:552)
+	... 12 more
+
+џэт 21, 2024 6:21:05 PM org.apache.catalina.core.StandardService initialize
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+LifecycleException:  Protocol handler initialization failed: java.net.BindException: Address already in use: JVM_Bind <null>:8080
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1143)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:703)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:845)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:538)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:562)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:261)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:413)
+
+џэт 21, 2024 6:21:05 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 252 ms
+џэт 21, 2024 6:21:05 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+џэт 21, 2024 6:21:05 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.53
+џэт 21, 2024 6:21:05 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+џэт 21, 2024 6:21:05 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+џэт 21, 2024 6:21:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory axis
+џэт 21, 2024 6:21:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+џэт 21, 2024 6:21:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+џэт 21, 2024 6:21:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+џэт 21, 2024 6:21:06 PM org.apache.coyote.http11.Http11Protocol start
+SEVERE: Error starting endpoint
+java.net.BindException: Address already in use: JVM_Bind <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.init(JIoEndpoint.java:563)
+	at org.apache.tomcat.util.net.JIoEndpoint.start(JIoEndpoint.java:579)
+	at org.apache.coyote.http11.Http11Protocol.start(Http11Protocol.java:207)
+	at org.apache.catalina.connector.Connector.start(Connector.java:1220)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:540)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:761)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:390)
+	at java.net.ServerSocket.<init>(ServerSocket.java:252)
+	at java.net.ServerSocket.<init>(ServerSocket.java:196)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:50)
+	at org.apache.tomcat.util.net.JIoEndpoint.init(JIoEndpoint.java:552)
+	... 12 more
+
+џэт 21, 2024 6:21:06 PM org.apache.catalina.core.StandardService start
+SEVERE: Failed to start connector [Connector[HTTP/1.1-8080]]
+LifecycleException:  service.getName(): "Catalina";  Protocol handler start failed: java.net.BindException: Address already in use: JVM_Bind <null>:8080
+	at org.apache.catalina.connector.Connector.start(Connector.java:1227)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:540)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:761)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+џэт 21, 2024 6:21:06 PM org.apache.jk.common.ChannelSocket init
+INFO: Port busy 8009 java.net.BindException: Address already in use: JVM_Bind
+џэт 21, 2024 6:21:06 PM org.apache.jk.common.ChannelSocket init
+SEVERE: Can't find free port 8009 8009
+џэт 21, 2024 6:21:06 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/10  config=null
+џэт 21, 2024 6:21:06 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 665 ms
+џэт 21, 2024 6:21:06 PM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:390)
+	at java.net.ServerSocket.<init>(ServerSocket.java:252)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:404)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:676)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:628)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+џэт 21, 2024 6:21:06 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+џэт 21, 2024 6:21:07 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+џэт 21, 2024 6:21:07 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+21.01.2024 19:08:50 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files (x86)\Avest\AvPCM_nces;C:\Program Files\Git\cmd;C:\Program Files\k6\;C:\tools\apache-maven-3.6.3\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\;C:\Users\dzmikhalchuk\AppData\Local\Microsoft\WindowsApps;C:\Users\dzmikhalchuk\AppData\Roaming\npm;C:\Users\dzmikhalchuk\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\python.exe;C:\Program Files\Java\jdk1.6.0_45\bin;C:\Users\dzmikhalchuk\.dotnet\tools;.
+21.01.2024 19:08:50 org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+21.01.2024 19:08:50 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 320 ms
+21.01.2024 19:08:50 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+21.01.2024 19:08:50 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.53
+21.01.2024 19:08:50 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+21.01.2024 19:08:50 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+21.01.2024 19:08:50 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory axis
+21.01.2024 19:08:51 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+21.01.2024 19:08:51 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+21.01.2024 19:08:51 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+21.01.2024 19:08:51 org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+21.01.2024 19:08:51 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+21.01.2024 19:08:51 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/12  config=null
+21.01.2024 19:08:51 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 707 ms
+21.01.2024 19:10:26 org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+21.01.2024 19:10:27 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+21.01.2024 19:10:27 org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+21.01.2024 19:10:28 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files (x86)\Avest\AvPCM_nces;C:\Program Files\Git\cmd;C:\Program Files\k6\;C:\tools\apache-maven-3.6.3\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\;C:\Users\dzmikhalchuk\AppData\Local\Microsoft\WindowsApps;C:\Users\dzmikhalchuk\AppData\Roaming\npm;C:\Users\dzmikhalchuk\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\python.exe;C:\Program Files\Java\jdk1.6.0_45\bin;C:\Users\dzmikhalchuk\.dotnet\tools;.
+21.01.2024 19:10:29 org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+21.01.2024 19:10:29 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 245 ms
+21.01.2024 19:10:29 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+21.01.2024 19:10:29 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.53
+21.01.2024 19:10:29 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+21.01.2024 19:10:29 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+21.01.2024 19:10:29 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory axis
+21.01.2024 19:10:29 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+21.01.2024 19:10:29 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+21.01.2024 19:10:29 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+21.01.2024 19:10:29 org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+21.01.2024 19:10:29 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+21.01.2024 19:10:29 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/10  config=null
+21.01.2024 19:10:29 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 658 ms
+21.01.2024 19:20:10 org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+21.01.2024 19:20:11 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+21.01.2024 19:20:11 org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+21.01.2024 19:20:12 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files (x86)\Avest\AvPCM_nces;C:\Program Files\Git\cmd;C:\Program Files\k6\;C:\tools\apache-maven-3.6.3\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\;C:\Users\dzmikhalchuk\AppData\Local\Microsoft\WindowsApps;C:\Users\dzmikhalchuk\AppData\Roaming\npm;C:\Users\dzmikhalchuk\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\python.exe;C:\Program Files\Java\jdk1.6.0_45\bin;C:\Users\dzmikhalchuk\.dotnet\tools;.
+21.01.2024 19:20:12 org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+21.01.2024 19:20:12 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 230 ms
+21.01.2024 19:20:12 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+21.01.2024 19:20:12 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.53
+21.01.2024 19:20:12 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+21.01.2024 19:20:12 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+21.01.2024 19:20:12 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory axis
+21.01.2024 19:20:12 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+21.01.2024 19:20:12 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+21.01.2024 19:20:12 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+21.01.2024 19:20:12 org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+21.01.2024 19:20:12 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+21.01.2024 19:20:12 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/9  config=null
+21.01.2024 19:20:12 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 616 ms

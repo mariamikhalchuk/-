@@ -1,0 +1,155 @@
+Jan 05, 2024 10:15:32 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+Jan 05, 2024 10:15:33 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jan 05, 2024 10:15:33 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+џэт 05, 2024 10:17:35 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;C:\Program Files (x86)\Avest\AvPCM_nces;C:\Program Files\Git\cmd;C:\Program Files\k6\;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\;C:\Users\dzmikhalchuk\AppData\Local\Microsoft\WindowsApps;C:\Users\dzmikhalchuk\AppData\Roaming\npm;C:\Users\dzmikhalchuk\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\python.exe;C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;;.
+џэт 05, 2024 10:17:35 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+џэт 05, 2024 10:17:35 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 476 ms
+џэт 05, 2024 10:17:36 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+џэт 05, 2024 10:17:36 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.53
+џэт 05, 2024 10:17:36 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+џэт 05, 2024 10:17:36 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+џэт 05, 2024 10:17:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory axis
+џэт 05, 2024 10:17:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+џэт 05, 2024 10:17:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+џэт 05, 2024 10:17:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+џэт 05, 2024 10:17:37 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+џэт 05, 2024 10:17:37 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+џэт 05, 2024 10:17:37 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/23  config=null
+џэт 05, 2024 10:17:37 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1187 ms
+Jan 05, 2024 11:03:46 AM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Jan 05, 2024 11:03:46 AM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:338)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:645)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:602)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:710)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:915)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:690)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 05, 2024 11:03:46 AM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Jan 05, 2024 11:03:46 AM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:338)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:645)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:602)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:710)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:915)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:690)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 05, 2024 11:03:46 AM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 5635
+Jan 05, 2024 11:03:48 AM org.apache.jk.common.ChannelSocket read
+INFO: Error reading data after 172bytes
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:645)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:602)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:710)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:915)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:690)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 05, 2024 11:03:48 AM org.apache.jk.common.ChannelSocket receive
+WARNING: can't read body, waited #768
+Jan 05, 2024 11:03:48 AM org.apache.jk.common.ChannelSocket processConnection
+WARNING: Closing ajp connection -1
+Jan 05, 2024 11:30:17 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+Jan 05, 2024 11:30:18 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jan 05, 2024 11:30:18 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+џэт 05, 2024 11:30:22 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;C:\Program Files (x86)\Avest\AvPCM_nces;C:\Program Files\Git\cmd;C:\Program Files\k6\;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\;C:\Users\dzmikhalchuk\AppData\Local\Microsoft\WindowsApps;C:\Users\dzmikhalchuk\AppData\Roaming\npm;C:\Users\dzmikhalchuk\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\python.exe;C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;;.
+џэт 05, 2024 11:30:22 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+џэт 05, 2024 11:30:22 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 253 ms
+џэт 05, 2024 11:30:22 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+џэт 05, 2024 11:30:22 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.53
+џэт 05, 2024 11:30:22 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+џэт 05, 2024 11:30:22 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+џэт 05, 2024 11:30:22 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory axis
+џэт 05, 2024 11:30:22 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+џэт 05, 2024 11:30:22 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+џэт 05, 2024 11:30:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+џэт 05, 2024 11:30:23 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+џэт 05, 2024 11:30:23 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+џэт 05, 2024 11:30:23 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/15  config=null
+џэт 05, 2024 11:30:23 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 659 ms
+џэт 05, 2024 11:35:28 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+џэт 05, 2024 11:35:29 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+џэт 05, 2024 11:35:29 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+џэт 05, 2024 11:35:32 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;C:\Program Files (x86)\Avest\AvPCM_nces;C:\Program Files\Git\cmd;C:\Program Files\k6\;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\;C:\Users\dzmikhalchuk\AppData\Local\Microsoft\WindowsApps;C:\Users\dzmikhalchuk\AppData\Roaming\npm;C:\Users\dzmikhalchuk\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dzmikhalchuk\AppData\Local\Programs\Python\Python310\python.exe;C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;;.
+џэт 05, 2024 11:35:32 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+џэт 05, 2024 11:35:32 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 251 ms
+џэт 05, 2024 11:35:32 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+џэт 05, 2024 11:35:32 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.53
+џэт 05, 2024 11:35:32 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+џэт 05, 2024 11:35:32 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+џэт 05, 2024 11:35:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory axis
+џэт 05, 2024 11:35:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+џэт 05, 2024 11:35:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+џэт 05, 2024 11:35:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+џэт 05, 2024 11:35:32 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+џэт 05, 2024 11:35:32 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+џэт 05, 2024 11:35:32 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/17  config=null
+џэт 05, 2024 11:35:32 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 676 ms
